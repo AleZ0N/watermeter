@@ -1,1 +1,1 @@
-Project for Arduino studio
+Project for Arduino Studio
