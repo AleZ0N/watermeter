@@ -41,5 +41,5 @@ The case for the final view of the control board is made in OrcaSlicer, an *wate
 
 The current level value in % can be obtained with an URL request:
 ```
-http://<boart-ip>/
+http://<board-ip>/
 ```
