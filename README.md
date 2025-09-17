@@ -1,4 +1,4 @@
-# Utrasonic water level meter
+# Ultrasonic water level meter
 ### Assembling
 parts:
 - ESP32 C3 Super Mini
@@ -25,7 +25,7 @@ const int levMaxDiff = 80;
 <p align="center"><img src="./images/tank.png"/></p>
 
 levMin -> L3 (minimum water level in the tank)\
-levMax -> L2 (the level when we consider that the container is 100% full)\
+levMax -> L2 (the level when we consider that the tank is 100% full)\
 levMaxDiff -> L2 -L1 (error correction range, somewhere in this range the tank stops filling)
 
 If the water level approaches the sensor by less than L2-L1, it will be considered an emergency.
