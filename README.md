@@ -30,7 +30,7 @@ levMaxDiff -> L2 -L1 (error correction range, somewhere in this range the tank s
 
 If the water level approaches the sensor by less than L2-L1, it will be considered an emergency.
 
-### The final view
+### Final view
 
 The case for the final view of the control board is made in OrcaSlicer, an ```water_meter_box.3mf``` file
 
